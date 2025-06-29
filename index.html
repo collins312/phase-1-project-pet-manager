@@ -1,0 +1,44 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Store Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Pet Store</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add a New Pet</h2>
+      <input type="text" id="petName" placeholder="Pet Name" />
+      <input type="number" id="petAge" placeholder="Pet Age" />
+      <input type="text" id="petType" placeholder="Pet Type" />
+      <button id="addPetBtn">Add Pet</button>
+      <input type="text" id="removePetName" placeholder="Pet Name to remove" />
+      <button id="removePetBtn">Remove Pet</button>
+    </section>
+
+    <section class="list-section">
+      <h2>Available Pets</h2>
+      <div id="petList" class="pet-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pet Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "pets": [
+    {
+      "id": "8056",
+      "name": "African Hunting dog",
+      "age": 7,
+      "type": "dog"
+    },
+    {
+      "id": "04d9",
+      "name": "motina",
+      "age": 5,
+      "type": "dog"
+    }
+  ]
+}
