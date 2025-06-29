@@ -20,15 +20,9 @@ A beginner-friendly web app to manage pets in a pet store. You can add new pets 
 3. Open `index.html` in a browser.
 
 ## db.json Example
-```json
+json
 {
   "pets": []
 }
-```
 
-## Screenshots
-_Add some screenshots here for better presentation._
 
----
-
-Enjoy building and learning!
